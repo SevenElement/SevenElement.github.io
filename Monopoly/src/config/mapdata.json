@@ -1,0 +1,1027 @@
+{
+    "uWidth":32,
+    "uHeight":32,
+    "start":{ "x": 3, "y": 3 },
+    "assets":{
+        "images":{
+            "uBG":"https://gw.alicdn.com/tfs/TB1sUWiN7voK1RjSZPfXXXPKFXa-32-32.jpg",
+            "road":"https://gw.alicdn.com/tfs/TB1q6iiN3HqK1RjSZFgXXa7JXXa-32-32.png",
+            "flower":"https://gw.alicdn.com/tfs/TB1cuqnNVzqK1RjSZFCXXbbxVXa-32-32.png",
+            "tree":"https://gw.alicdn.com/tfs/TB1.SWmNYrpK1RjSZTEXXcWAVXa-96-96.png",
+            "startBtn":"https://gw.alicdn.com/tfs/TB1Bkt_OhnaK1RjSZFBXXcW7VXa-119-114.png",
+            "house1": "https://img.alicdn.com/tfs/TB1JJW.be3tHKVjSZSgXXX4QFXa-30-31.png",
+            "house2": "https://img.alicdn.com/tfs/TB1K9eBOhnaK1RjSZFtXXbC2VXa-30-31.png",
+            "house3": "https://img.alicdn.com/tfs/TB1jih.OirpK1RjSZFhXXXSdXXa-34-31.png",
+            "house4": "https://img.alicdn.com/tfs/TB14FWkOhjaK1RjSZFAXXbdLFXa-32-34.png",
+            "tower1": "https://img.alicdn.com/tfs/TB1pap4OgTqK1RjSZPhXXXfOFXa-63-64.png",
+            "tower2": "https://img.alicdn.com/tfs/TB1iwh.OmzqK1RjSZFjXXblCFXa-64-64.png",
+            "tower3": "https://img.alicdn.com/tfs/TB1_VF.ObvpK1RjSZPiXXbmwXXa-63-64.png",
+            "tower4": "https://img.alicdn.com/tfs/TB15YN7OmzqK1RjSZFLXXcn2XXa-65-64.png",
+            "tower5": "https://img.alicdn.com/tfs/TB1f79bOmzqK1RjSZFpXXakSXXa-65-64.png",
+            "tower6": "https://img.alicdn.com/tfs/TB1Sp9XOmzqK1RjSZFHXXb3CpXa-64-64.png",
+            "tower7": "https://img.alicdn.com/tfs/TB1crqnOhYaK1RjSZFnXXa80pXa-64-64.png",
+            "flower2": "https://img.alicdn.com/tfs/TB1PFOdOcbpK1RjSZFyXXX_qFXa-32-33.png",
+            "bucket": "https://img.alicdn.com/tfs/TB1iFFBOmzqK1RjSZPcXXbTepXa-32-32.png",
+            "snowman": "https://img.alicdn.com/tfs/TB18PqyOhnaK1RjSZFBXXcW7VXa-31-32.png",
+            "tombstone": "https://img.alicdn.com/tfs/TB1eF0.ObvpK1RjSZPiXXbmwXXa-32-32.png",
+            "prize1":"https://gw.alicdn.com/tfs/TB1LErrOhTpK1RjSZFMXXbG_VXa-32-32.png",
+            "prize3":"https://gw.alicdn.com/tfs/TB1cXDBOcfpK1RjSZFOXXa6nFXa-32-32.png",
+            "prize2":"https://gw.alicdn.com/tfs/TB19wmTOmzqK1RjSZPcXXbTepXa-32-32.png"
+        },
+        "audio":{
+            "bgm": {
+                "src":"https://cube.elemecdn.com/199444/0f70487dd088f13b4b2484ccf940f4d8-5d819f70365c834455.mp3",
+                "loop":true,
+                "autoplay": true
+            },
+            "move": {
+                "src":"https://cube.elemecdn.com/199444/22f62e276355d6185b302a66afe7fc69-12C888piCBTd.mp3",
+                "loop":true,
+                "autoplay": false
+            },
+            "prize": {
+                "src": "https://cube.elemecdn.com/199444/35968c0081dd12f01101229b897ba233-score.mp3",
+                "loop": false,
+                "autoplay": false
+            },
+            "touzi": {
+                "src": "https://cube.elemecdn.com/199444/6a3ee927209bf91e86fa07b3ee146911-dice_shake-96201.mp3",
+                "loop": true,
+                "autoplay": false
+            },
+            "touzi_down": {
+                "src": "https://cube.elemecdn.com/199444/6a3ee927209bf91e86fa07b3ee146911-dice_shake-96201.mp3",
+                "loop": false,
+                "autoplay": false
+            }
+        },
+        "json":{
+            "role": "https://cube.elemecdn.com/199444/52fb79a84f7d106c915161f4368e4a7c-role.json",
+            "dice": "https://cube.elemecdn.com/199444/4d3bd06a946a2dae3327bfaae64bad5e-dice.json"
+        }
+    },
+    "uData": [{
+        "id":1,
+        "type":"path",
+        "position":{ "x": 3, "y": 3 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":2,
+        "type":"path",
+        "position":{ "x": 3, "y": 4 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":3,
+        "type":"path",
+        "position":{ "x": 3, "y": 5 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":4,
+        "type":"path",
+        "position":{ "x": 3, "y": 6 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":5,
+        "type":"path",
+        "position":{ "x": 3, "y": 7 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":6,
+        "type":"path",
+        "position":{ "x": 3, "y": 8 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":7,
+        "type":"path",
+        "position":{ "x": 3, "y": 9 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":8,
+        "type":"path",
+        "position":{ "x": 3, "y": 10 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":9,
+        "type":"path",
+        "position":{ "x": 3, "y": 11 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":10,
+        "type":"path",
+        "position":{ "x": 3, "y": 12 },
+        "width":1,
+        "height":1,
+        "event":{
+            "prize": {
+                "prizeId": "prize2"
+            }
+        },
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":11,
+        "type":"path",
+        "position":{ "x": 3, "y": 13 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":12,
+        "type":"path",
+        "position":{ "x": 4, "y": 13 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":13,
+        "type":"path",
+        "position":{ "x": 5, "y": 13 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":14,
+        "type":"path",
+        "position":{ "x": 6, "y": 13 },
+        "width":1,
+        "height":1,
+        "event":{
+            "prize": {
+                "prizeId": "prize1"
+            }
+        },
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":15,
+        "type":"path",
+        "position":{ "x": 7, "y": 13 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":16,
+        "type":"path",
+        "position":{ "x": 8, "y": 13 },
+        "width":1,
+        "height":1,
+        "event":{
+            "prize": {
+                "prizeId": "prize3"
+            }
+        },
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":17,
+        "type":"path",
+        "position":{ "x": 9, "y": 13 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":18,
+        "type":"path",
+        "position":{ "x": 10, "y": 13 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":19,
+        "type":"path",
+        "position":{ "x": 11, "y": 13 },
+        "width":1,
+        "height":1,
+        "event":{
+            "prize": {
+                "prizeId": "prize2"
+            }
+        },
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":20,
+        "type":"path",
+        "position":{ "x": 12, "y": 13 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":21,
+        "type":"path",
+        "position":{ "x": 13, "y": 13 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":22,
+        "type":"path",
+        "position":{ "x": 14, "y": 13 },
+        "width":1,
+        "height":1,
+        "event":{
+            "prize": {
+                "prizeId": "prize1"
+            }
+        },
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":24,
+        "type":"path",
+        "position":{ "x": 15, "y": 13 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":25,
+        "type":"path",
+        "position":{ "x": 16, "y": 13 },
+        "width":1,
+        "height":1,
+        "event":{
+            "prize": {
+                "prizeId": "prize3"
+            }
+        },
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":26,
+        "type":"path",
+        "position":{ "x": 16, "y": 12 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":27,
+        "type":"path",
+        "position":{ "x": 16, "y": 11 },
+        "width":1,
+        "height":1,
+        "event":{
+            "prize": {
+                "prizeId": "prize1"
+            }
+        },
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":28,
+        "type":"path",
+        "position":{ "x": 16, "y": 10 },
+        "width":1,
+        "height":1,
+        "event":{
+            "prize": {
+                "prizeId": "prize2"
+            }
+        },
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":29,
+        "type":"path",
+        "position":{ "x": 16, "y": 9 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":30,
+        "type":"path",
+        "position":{ "x": 16, "y": 8 },
+        "width":1,
+        "height":1,
+        "event":{
+            "prize": {
+                "prizeId": "prize3"
+            }
+        },
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":31,
+        "type":"path",
+        "position":{ "x": 15, "y": 8 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":32,
+        "type":"path",
+        "position":{ "x": 14, "y": 8 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":33,
+        "type":"path",
+        "position":{ "x": 13, "y": 8 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":34,
+        "type":"path",
+        "position":{ "x": 12, "y": 8 },
+        "width":1,
+        "height":1,
+        "event":{
+            "prize": {
+                "prizeId": "prize1"
+            }
+        },
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":35,
+        "type":"path",
+        "position":{ "x": 11, "y": 8 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":36,
+        "type":"path",
+        "position":{ "x": 11, "y": 7 },
+        "width":1,
+        "height":1,
+        "event":{
+            "prize": {
+                "prizeId": "prize1"
+            }
+        },
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":37,
+        "type":"path",
+        "position":{ "x": 11, "y": 6 },
+        "width":1,
+        "height":1,
+        "event":{
+            "prize": {
+                "prizeId": "prize3"
+            }
+        },
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":38,
+        "type":"path",
+        "position":{ "x": 11, "y": 5 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":39,
+        "type":"path",
+        "position":{ "x": 11, "y": 4 },
+        "width":1,
+        "height":1,
+        "event":{
+            "prize": {
+                "prizeId": "prize3"
+            }
+        },
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":40,
+        "type":"path",
+        "position":{ "x": 11, "y": 3 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":41,
+        "type":"path",
+        "position":{ "x": 10, "y": 3 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":42,
+        "type":"path",
+        "position":{ "x": 9, "y": 3 },
+        "width":1,
+        "height":1,
+        "event":{
+            "prize": {
+                "prizeId": "prize1"
+            }
+        },
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":43,
+        "type":"path",
+        "position":{ "x": 8, "y": 3 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":44,
+        "type":"path",
+        "position":{ "x": 7, "y": 3 },
+        "width":1,
+        "height":1,
+        "event":{
+            "prize": {
+                "prizeId": "prize2"
+            }
+        },
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":45,
+        "type":"path",
+        "position":{ "x": 6, "y": 3 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":46,
+        "type":"path",
+        "position":{ "x": 5, "y": 3 },
+        "width":1,
+        "height":1,
+        "event":{
+            "prize": {
+                "prizeId": "prize2"
+            }
+        },
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":47,
+        "type":"path",
+        "position":{ "x": 4, "y": 3 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":48,
+        "type":"path",
+        "position":{ "x": 4, "y": 6 },
+        "width":1,
+        "height":1,
+        "event":{
+            "prize": {
+                "prizeId": "prize3"
+            }
+        },
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":49,
+        "type":"path",
+        "position":{ "x": 5, "y": 6 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":50,
+        "type":"path",
+        "position":{ "x": 6, "y": 6 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":51,
+        "type":"path",
+        "position":{ "x": 7, "y": 6 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":52,
+        "type":"path",
+        "position":{ "x": 8, "y": 6 },
+        "width":1,
+        "height":1,
+        "event":{
+            "prize": {
+                "prizeId": "prize1"
+            }
+        },
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":53,
+        "type":"path",
+        "position":{ "x": 9, "y": 6 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":1,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "road"
+    },{
+        "id":2123123,
+        "type":"",
+        "position":{ "x": 0, "y": 0 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":0,
+        "repeatx":20,
+        "repeaty":20,
+        "sprite": "uBG"
+    },{
+        "id":202,
+        "type":"",
+        "position":{ "x": 13, "y": 14 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":2,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "flower"
+    },{
+        "id":203,
+        "type":"",
+        "position":{ "x": 11, "y": 12 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":2,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "flower"
+    },{
+        "id":202,
+        "type":"",
+        "position":{ "x": 10, "y": 14 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":2,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "flower"
+    },{
+        "id":202,
+        "type":"",
+        "position":{ "x": 8, "y": 14 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":2,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "flower2"
+    },{
+        "id":202,
+        "type":"",
+        "position":{ "x": 5, "y": 14 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":2,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "flower2"
+    },{
+        "id":202,
+        "type":"",
+        "position":{ "x": 9, "y": 2 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":2,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "flower2"
+    },{
+        "id":202,
+        "type":"",
+        "position":{ "x": 12, "y": 2 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":2,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "flower2"
+    },{
+        "id":202,
+        "type":"",
+        "position":{ "x": 9, "y": 12 },
+        "width":1,
+        "height":1,
+        "event":{},
+        "zIndex":2,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "flower"
+    },{
+        "id":1231,
+        "type":"",
+        "position":{ "x": 12, "y": 10 },
+        "width":3,
+        "height":3,
+        "event":{},
+        "zIndex":3,
+        "repeatx":1,
+        "repeaty":1,
+        "sprite": "tree"
+    },{
+        "id": 1,
+        "type": "",
+        "position": { "x": 6, "y": 2},
+        "width": 1,
+        "height": 1,
+        "event": {},
+        "zIndex": 3,
+        "repeatx": 1,
+        "repeaty": 1,
+        "sprite": "house1"
+    },{
+        "id": 1,
+        "type": "",
+        "position": { "x": 5, "y": 2},
+        "width": 1,
+        "height": 1,
+        "event": {},
+        "zIndex": 3,
+        "repeatx": 1,
+        "repeaty": 1,
+        "sprite": "house1"
+    },{
+        "id": 1,
+        "type": "",
+        "position": { "x": 2, "y": 7},
+        "width": 1,
+        "height": 1,
+        "event": {},
+        "zIndex": 3,
+        "repeatx": 1,
+        "repeaty": 1,
+        "sprite": "house2"
+    },{
+        "id": 1,
+        "type": "",
+        "position": { "x": 4, "y": 7},
+        "width": 1,
+        "height": 1,
+        "event": {},
+        "zIndex": 3,
+        "repeatx": 1,
+        "repeaty": 1,
+        "sprite": "house2"
+    },{
+        "id": 1,
+        "type": "",
+        "position": { "x": 2, "y": 8},
+        "width": 1,
+        "height": 1,
+        "event": {},
+        "zIndex": 3,
+        "repeatx": 1,
+        "repeaty": 1,
+        "sprite": "house3"
+    },{
+        "id": 1,
+        "type": "",
+        "position": { "x": 4, "y": 9},
+        "width": 1,
+        "height": 1,
+        "event": {},
+        "zIndex": 3,
+        "repeatx": 1,
+        "repeaty": 1,
+        "sprite": "house3"
+    },{
+        "id": 1,
+        "type": "",
+        "position": { "x": 7, "y": 2},
+        "width": 1,
+        "height": 1,
+        "event": {},
+        "zIndex": 3,
+        "repeatx": 1,
+        "repeaty": 1,
+        "sprite": "house4"
+    },{
+        "id": 1,
+        "type": "",
+        "position": { "x": 8, "y": 2},
+        "width": 1,
+        "height": 1,
+        "event": {},
+        "zIndex": 3,
+        "repeatx": 1,
+        "repeaty": 1,
+        "sprite": "house4"
+    },{
+        "id": 1,
+        "type": "",
+        "position": { "x": 14, "y": 12},
+        "width": 1,
+        "height": 1,
+        "event": {},
+        "zIndex": 3,
+        "repeatx": 1,
+        "repeaty": 1,
+        "sprite": "bucket"
+    },{
+        "id": 1,
+        "type": "",
+        "position": { "x": 6, "y": 12},
+        "width": 1,
+        "height": 1,
+        "event": {},
+        "zIndex": 3,
+        "repeatx": 1,
+        "repeaty": 1,
+        "sprite": "flower2"
+    },{
+        "id": 1,
+        "type": "",
+        "position": { "x": 10, "y": 12},
+        "width": 1,
+        "height": 1,
+        "event": {},
+        "zIndex": 3,
+        "repeatx": 1,
+        "repeaty": 1,
+        "sprite": "tombstone"
+    },{
+        "id": 1,
+        "type": "",
+        "position": { "x": 3, "y": 1},
+        "width": 2,
+        "height": 2,
+        "event": {},
+        "zIndex": 3,
+        "repeatx": 1,
+        "repeaty": 1,
+        "sprite": "tower1"
+    },{
+        "id": 1,
+        "type": "",
+        "position": { "x": 7, "y": 4},
+        "width": 2,
+        "height": 2,
+        "event": {},
+        "zIndex": 3,
+        "repeatx": 1,
+        "repeaty": 1,
+        "sprite": "tower1"
+    },{
+        "id": 1,
+        "type": "",
+        "position": { "x": 10, "y": 1},
+        "width": 2,
+        "height": 2,
+        "event": {},
+        "zIndex": 3,
+        "repeatx": 1,
+        "repeaty": 1,
+        "sprite": "tower3"
+    },{
+        "id": 1,
+        "type": "",
+        "position": { "x": 12, "y": 6},
+        "width": 2,
+        "height": 2,
+        "event": {},
+        "zIndex": 3,
+        "repeatx": 1,
+        "repeaty": 1,
+        "sprite": "tower4"
+    },{
+        "id": 1,
+        "type": "",
+        "position": { "x": 6, "y": 14},
+        "width": 2,
+        "height": 2,
+        "event": {},
+        "zIndex": 3,
+        "repeatx": 1,
+        "repeaty": 1,
+        "sprite": "tower5"
+    },{
+        "id": 1,
+        "type": "",
+        "position": { "x": 11, "y": 14},
+        "width": 2,
+        "height": 2,
+        "event": {},
+        "zIndex": 3,
+        "repeatx": 1,
+        "repeaty": 1,
+        "sprite": "tower6"
+    },{
+        "id": 1,
+        "type": "",
+        "position": { "x": 4, "y": 11},
+        "width": 2,
+        "height": 2,
+        "event": {},
+        "zIndex": 3,
+        "repeatx": 1,
+        "repeaty": 1,
+        "sprite": "tower7"
+    },{
+        "id": 1,
+        "type": "",
+        "position": { "x": 4, "y": 5},
+        "width": 1,
+        "height": 1,
+        "event": {},
+        "zIndex": 3,
+        "repeatx": 1,
+        "repeaty": 1,
+        "sprite": "snowman"
+    }]
+}
