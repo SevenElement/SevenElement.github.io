@@ -1,0 +1,15 @@
+/*!
+ * Name: Tiny.js
+ * Description: The Tiny engine is an HTML5 game engine designed to be lightweight and concise JavaScript-friendly syntax, it will friendly for mobile.
+ * Author: yiqi
+ * Version: v1.2.5
+ */
+
+/*!
+ Transformation Matrix v2.0
+ (c) Epistemex 2014-2015
+ www.epistemex.com
+ By Ken Fyrstenberg
+ Contributions by leeoniya.
+ License: MIT, header required.
+ */
